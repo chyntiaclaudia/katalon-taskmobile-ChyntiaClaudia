@@ -1,5 +1,7 @@
 # katalon-taskmobile-ChyntiaClaudia
 
+LINK DRIVE : https://drive.google.com/drive/folders/1XTrlFWZPNE2I_htP060Q4VwaK7uA6EUf?usp=sharing
+
 Panduan untuk pengujian aplikasi mobile Solodroid_E-CommerceApp Demo_3.2.0 menggunakan Katalon Studio untuk otomatisasi pengujian dan Android Studio untuk pengaturan perangkat virtual. Pengujian difokuskan pada fungsionalitas penting termasuk checkout, edit profil, tambah ke keranjang, dan pencarian. Semua kasus uji diatur dalam satu test suite untuk kenyamanan.
 
 ## Persyaratan
