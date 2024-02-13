@@ -20,19 +20,15 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startApplication('C:\\Users\\ASUS\\Downloads\\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk', 
     true)
 
-Mobile.tap(findTestObject('Object Repository/addCart/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/addCart/buttocheckout'), 0)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.RelativeLayout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/addCart/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.Button - ADD TO CART'), 0)
 
-Mobile.setText(findTestObject('Object Repository/addCart/android.widget.EditText'), '2', 0)
+Mobile.setText(findTestObject('Object Repository/AddToCart/android.widget.EditText'), '2', 0)
 
-Mobile.tap(findTestObject('Object Repository/addCart/android.widget.Button - ADD'), 0)
-
-//Mobile.tap(findTestObject('Object Repository/addCart/buttocheckout'), 0)
-
-//Mobile.tap(findTestObject('Object Repository/addCart/android.widget.Button - CANCEL'), 0)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.Button - ADD'), 0)
 
 Mobile.closeApplication()
 
